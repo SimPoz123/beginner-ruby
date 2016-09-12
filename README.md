@@ -31,3 +31,26 @@ message = I could go for a sandwich right about now.
 ```
 
 ## Conditionals
+
+There are two types of conditionals.
+
+#### If Statements
+
+If statements check to see if a condition is true. If the condition is true, a certain action will be taken. If it is false, the code will move forward. The below code would return `Hello` because 43 is greater than 36
+
+```
+if 43 > 36
+  return("Hello")
+end
+```
+
+After an if statement, an `elsif` or `else` can be used to carry on the conditional.
+
+An `elsif` checks another condition only if the original if statement was false.
+
+
+conditionals
+  Expressions
+  Branching
+
+Methods
