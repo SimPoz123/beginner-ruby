@@ -85,4 +85,28 @@ end
 ```
 
 
-Methods
+## Methods
+
+Methods are used to implement a certain function a code is made to do multiple times, with different variables. This means that when a function is created, it can be used multiple times in a code, or can be used with different variable for a different result. This is effective because the code will not need to be rewritten and it is easy to change variables without having to make many edits.
+
+Each method begins with a `def` and ends with a `end`. Next to `def` is the function name, and next to the name, in parentheses, are where variables to be used in the method are named.
+
+Methods are then called later with the method name, and in the parentheses, rather than the variable name, are the values to be given to the variables.
+
+In the method below, see if you can what value would be returned for each time the method is called.
+
+```
+def numerify(x)
+  x = x + 3
+  x = x * 4
+  x = x - 7
+  x = x - 2
+  return(x)
+end
+
+numerify(17)
+
+numerify(4)
+```
+
+If you got 71 and 19 you're doing something right.
